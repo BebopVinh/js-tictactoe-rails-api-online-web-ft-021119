@@ -52,14 +52,12 @@ function checkWinner() {
       if (element.every(allX)) {
           setMessage("Player X Won!")
           return true
-          debugger
       } else if (element.every(allO)) {
          setMessage("Player O Won!")
          return true
-         debugger
+      } else {
+         return false
       }
    })
-
-   debugger
 
 }
